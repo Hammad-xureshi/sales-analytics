@@ -1324,7 +1324,7 @@ You cannot:
 
 - **GitHub**: [@hammadnaeem](https://github.com/hammadnaeem)
 - **Email**: hammad.naeem@example.com
-- **Portfolio**: [Your portfolio URL]
+- **Portfolio**: https://hammadnaeem.vercel.app/
 
 ---
 
@@ -1368,6 +1368,3 @@ You cannot:
 **Status**: Production Ready
 
 ---
-
-*This README is maintained with ❤️ by the development team.*
->>>>>>> d7b9911 (Initial commit: Sales Analytics ERP System)
