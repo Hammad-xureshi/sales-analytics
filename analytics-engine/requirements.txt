@@ -1,0 +1,10 @@
+# ============================================
+# Python Analytics Engine Dependencies
+# Made by Hammad Naeem
+# ============================================
+
+psycopg2-binary==2.9.9
+python-dotenv==1.0.0
+schedule==1.2.1
+numpy==1.26.2
+faker==21.0.0

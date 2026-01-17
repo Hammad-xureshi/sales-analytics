@@ -1,0 +1,20 @@
+{
+  "name": "sales-analytics-erp",
+  "version": "1.0.0",
+  "description": "Multi-Website Real-Time Sales Analytics & ERP System - Made by Hammad Naeem",
+  "author": "Hammad Naeem",
+  "license": "MIT",
+  "scripts": {
+    "install:all": "npm install && cd backend && npm install && cd ../frontend && npm install",
+    "install:python": "cd analytics-engine && pip install -r requirements.txt",
+    "setup": "npm run install:all && npm run install:python",
+    "start:backend": "cd backend && npm start",
+    "start:frontend": "cd frontend && npm start",
+    "start:analytics": "cd analytics-engine && python main.py",
+    "start": "concurrently \"npm run start:backend\" \"npm run start:frontend\"",
+    "dev": "concurrently \"npm run start:backend\" \"npm run start:analytics\" \"npm run start:frontend\""
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
